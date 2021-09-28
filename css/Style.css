@@ -1,0 +1,186 @@
+body {
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 16px ;
+    line-height: 20 px;
+}
+
+
+/*Nav*/
+
+#logo {
+     background: none;
+     margin-top: 2px;
+}
+
+nav {
+    background-color: rgb(33, 47, 60);
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 9px -6px black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px 0px #333 inset;
+}
+
+/* Portada */
+
+.holder {
+    width: 960px;
+    margin: 0 , auto;
+}
+
+.homeing {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+h2 {
+    margin: 20px 0 16px;
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.columnas {
+    overflow: hidden;
+}
+
+.bienvenidos {
+    width: 70%;
+    float: left;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 40px;
+}
+
+.testimonios {
+    float: right;
+    width: 30%;
+} 
+
+.testimonio .cita {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.testimonio .autor {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: 16px 0;
+
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    background-color: rgb(33, 47, 60);
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+/*  Nosotros */
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid red;
+    width: 18%;
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+}
+
+.persona h5,
+.persona h6{
+    color: #2e64a1;
+    margin: 0;
+}
+
+.persona p{
+    font-size: 11px;
+}
+
+/* Contacto */
+
+.columna{
+    width: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 22%; 
+    display: inline-block;
+}
+
+.formulario input, .formulario textarea{
+    background-color: rgb(194, 193, 193);
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 13px;
+    padding: 5px;
+    width: 90%;
+}
+
+.formulario textarea{
+    height: 170px;
+    resize: none;
+}
+
+.formulario input[type="submit"]{
+   width: auto; 
+   background-color: #6da9ed;
+   box-shadow: 0 0 10px gray;
+   font-size: 16px;
+   color: white;
+}
